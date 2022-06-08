@@ -10,7 +10,7 @@ VM build OS is Ubuntu 20.04.
 sudo add-apt-repository ppa:pybricks/ppa\
 sudo apt-get update\
 sudo apt install build-essential git gettext uncrustify mtools\
-sudo apt install python3-pi
+sudo apt install python3-pip
 
 
 cd ~/\
