@@ -68,6 +68,7 @@ here's adafruits circuitpython implementation for another board as a reference: 
 
 here's the rp2040 i2c class for references to the apis that might be needed for i2cperipheral: https://github.com/adafruit/circuitpython/blob/main/ports/raspberrypi/common-hal/busio/I2C.c
 
+here's a guide on how to extend circuitpython (old. not sure if still relevant): https://learn.adafruit.com/extending-circuitpython/overview
 
 
 
