@@ -37,9 +37,9 @@ cd ~/dev
 
 ### clone circuitpython and install python libraries
 
-git clone https://github.com/adafruit/circuitpython.git \
+git clone https://github.com/im-redactd/circuitpython.git \
 cd circuitpython\
-make fetch-submoules 
+make fetch-submodules 
 
 pip3 install --upgrade -r requirements-dev.txt \
 pip3 install --upgrade -r requirements-doc.txt
