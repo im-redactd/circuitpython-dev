@@ -37,7 +37,7 @@ cd ~/dev
 
 ### clone circuitpython and install python libraries
 
-git clone https://github.com/im-redactd/circuitpython.git \
+git clone https://github.com/adafruit/circuitpython.git \
 cd circuitpython\
 make fetch-submoules 
 
