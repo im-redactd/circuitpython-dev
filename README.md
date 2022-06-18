@@ -21,7 +21,7 @@ cd dev
 
 wget https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi.tar.xz \
 tar xvf gcc-arm-10.3-2021.07-x86_64-arm-none-eabi.tar.xz\
-export PATH=/home/$USER/dev/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/arm-none-eabi/bin:$PATH
+export PATH=/home/$USER/dev/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin:$PATH
 
 cd ~/dev
 
