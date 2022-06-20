@@ -46,7 +46,8 @@ pip3 install --upgrade -r requirements-doc.txt
 
 ### complile mpy-cross
 
-make -C mpy-cross
+CPUS=8 \
+make -j${CPUS} -C mpy-cross
 
 ### set active branch
 
@@ -54,13 +55,16 @@ git checkout 7.3.0
 
 ### test compile rp2040 board
 
+(for Ken: BOARD=adafruit_qtpy_rp2040 )
+
+BOARD=raspberry_pi_pico \
 cd ~/dev/circuitpython/ports/raspberrypi \
-make -j8 BOARD=raspberry_pi_pico
+make -j${CPUS} BOARD=${BOARD}
 
 
 ## objective
 
-build i2cperipheral library for circuitpython
+build i2cperipheral library for circuitpython: ports/raspberrypi/common-hal/i2cperipheral
 
 here's the micropython implementation: https://github.com/adamgreen/i2cperipheral
 
